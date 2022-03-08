@@ -1,10 +1,10 @@
-import './App.css';
+import AboutMe from './components/AboutMe'
 
 function App() {
-
-  const idade = prompt('Digite sua idade')
   return (
-    <p>Você tem {idade} anos de idade.</p>
+    <div>
+      <AboutMe name="Renato" age="20" city="Sao Paulo"/>
+    </div>
   );
 }
 

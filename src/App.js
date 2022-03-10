@@ -1,9 +1,11 @@
 import AboutMe from './components/AboutMe'
+import Event from './components/Event'
 
 function App() {
   return (
     <div>
-      <AboutMe name="Renato" age="20" city="Sao Paulo"/>
+      <AboutMe age={20} city="Sao Paulo"/>
+      <Event />
     </div>
   );
 }
